@@ -17,7 +17,7 @@ int main()
     data_training.SvmDetector();
 
     ObjectDetection object_detection;
-    //object_detection.HogDescriptor();
+    object_detection.HogDescriptor();
 
     std::vector<std::string> test_images;
     cv::glob(test_address,test_images);
